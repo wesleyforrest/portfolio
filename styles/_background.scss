@@ -1,0 +1,18 @@
+* {
+  background-color: $primary-background-color;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    height: 200px;
+    width: 300px;
+    border: solid 1px lime;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary-background-color;
+  }
+}
