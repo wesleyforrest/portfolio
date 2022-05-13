@@ -2,19 +2,19 @@
   background-color: $primary-background-color;
 }
 
-.project {
-  &__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+h1 {
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
 
-  &__img {
-    height: 200px;
-    width: 300px;
-    border: solid 1px lime;
-    align-items: center;
-    justify-content: center;
-    background-color: $secondary-background-color;
-  }
+h1:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid red;
 }

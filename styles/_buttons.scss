@@ -1,0 +1,12 @@
+.btn {
+  &__circle {
+    background-color: $secondary-background-color;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  &__rectangle {
+    background-color: $secondary-background-color;
+    padding: 10%;
+  }
+}
